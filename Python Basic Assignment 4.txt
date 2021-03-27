@@ -1,0 +1,66 @@
+1. What exactly is []?
+Ans: This is use for list in python like a=[],Where 'a' is a List.
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans: spam[2]='hello'
+
+
+Let's pretend the spam includes the list ['a','b', 'c', 'd'] for the next three queries.]
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans: Answer of this expression is d
+
+4. What is the value of spam[-1]?
+Ans: d is the value of this expression.
+
+5. What is the value of spam[:2]?
+Ans: ['a','b'] is the value of this expression.
+
+Let's pretend bacon has the list [3.14, 'cat', 11, 'cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans: 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans: [3.14, 'cat', 11, 'cat', True, 99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans: [3.14, 11, 'cat', True]
+
+9. What are the list concatenation and list replication operators?
+Ans:  List concatenation : This is done we have many separate and different list and we want to processed in a similar manner.
+          List replication : This is done when we have one list and we want that values for multiple times in same list.
+
+10. What is difference between the list methods append() and insert()?
+Ans: append insert that value into list at the end append is single argument function.
+         insert is the 2 argument function which require the value to be insert and the index number at where we want to insert that value.
+
+11. What are the two methods for removing items from a list? 
+Ans: list.remove('value'),  list.pop('index number of value')
+
+12. Describe how list values and string values are identical.
+Ans: We can create list any type of data type same as we can create a string with any value. for string= "test1.0,3" this is a complete string
+         for list =['test', 1.0, 3] 
+
+13. What's the difference between tuples and lists?
+Ans: List can be edit like insert, remove and modify but tuple is static or we can say fixed we can't edit a tuple.
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans:  	a=(10,42,152,25)
+	for i in range(len(a)):
+    	      if a[i]==42:
+       	            print(a[i])
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans: a=(10,42,152,25)
+         b=[52,125,58,25]
+         print(list(a))
+         print(tuple(b))
+
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Ans: They can contain any datatype of value can contain String, Integer, Float, Character, Boolean.
+
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans: A copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original.
+         A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+
